@@ -1,7 +1,8 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
-#打开浏览器
+
+#打开浏览器 
 brower = webdriver.Chrome()
 url='https://music.163.com/#/discover/toplist'
 brower.get(url)
